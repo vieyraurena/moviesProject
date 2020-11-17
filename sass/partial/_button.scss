@@ -1,0 +1,19 @@
+button{
+  position: absolute;
+  left: 50px;
+  padding: 0.5rem 2rem;
+  margin-top: 50px;
+  background-color:$submit;
+  color: $heading-color;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 3px;
+
+  &:focus{
+    outline: none;
+  }
+  
+  &:hover{
+    background-color: $submit-hover;
+  }
+}
